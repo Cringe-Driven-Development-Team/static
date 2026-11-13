@@ -43,7 +43,7 @@
 | Файл | Источник | Лицензия | Обработка |
 |---|---|---|---|
 | `img/clouds-horizon-1.webp` | карта Earth Clouds, [Solar System Scope](https://www.solarsystemscope.com/textures/) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | строки 100–900 равнопрямоугольной карты 2048×1024 растянуты до 3840×640 с перспективным сжатием к горизонту (у кромки вдвое-втрое плотнее), контраст поднят, цвет — бело-лиловый, яркость карты перенесена в альфа-канал; по ширине бесшовна |
-| `img/clouds-horizon-2.webp` | карта Earth Clouds 8192×4096, [Solar System Scope](https://www.solarsystemscope.com/textures/) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | то же, что у `-1`, но из 8K: строки 400–3600 растянуты до 7680×1280 (двойная плотность для ретины, показывается как 3840×640 px); качество WebP 60, альфа 40 — в лимит 2 МБ |
+| `img/clouds-horizon-3.webp` | карта Earth Clouds 8192×4096, [Solar System Scope](https://www.solarsystemscope.com/textures/) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) | из 8K: строки у южного полюса и выше развёрнуты в полосу 7680×1280 (двойная плотность для ретины, показывается как 3840×640 px) по профилю сферы радиусом 1300 px (орфографическая проекция: чем ближе к кромке, тем сильнее сжатие), контраст не усиливался, свет слегка приглушён, цвет бело-лиловый; без альфа-канала (WebP снижает уровни прозрачности ниже quality 100), WebP quality 86; по ширине бесшовна |
 
 ## CI
 
